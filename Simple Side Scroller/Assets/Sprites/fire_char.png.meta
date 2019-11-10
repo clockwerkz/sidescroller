@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: a335e6eb629792145b5c864b91cb21a7
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: fire_char_Head
+    21300002: fire_char_leftArm
+    21300004: fire_char_body
+    21300006: fire_char_rightArm
+    21300008: fire_char_leftLeg
+    21300010: fire_char_rightLeg
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -38,7 +44,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -65,9 +71,103 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: fire_char_Head
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 328
+        width: 307
+        height: 331
+      alignment: 9
+      pivot: {x: 0.639792, y: 0.02459477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_char_leftArm
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 199
+        width: 125
+        height: 103
+      alignment: 9
+      pivot: {x: 0.88910633, y: 0.8555514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_char_body
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 152
+        width: 125
+        height: 152
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.08709265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_char_rightArm
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 198
+        width: 98
+        height: 113
+      alignment: 9
+      pivot: {x: 0.114630565, y: 0.8848529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_char_leftLeg
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 19
+        width: 99
+        height: 134
+      alignment: 9
+      pivot: {x: 0.7646301, y: 0.90687275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: fire_char_rightLeg
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 20
+        width: 92
+        height: 132
+      alignment: 9
+      pivot: {x: 0.26141325, y: 0.8862168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
