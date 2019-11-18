@@ -6,11 +6,17 @@ public class Enemy : MonoBehaviour {
 
     public float minSpeed = 2f;
     public float maxSpeed = 10f;
+
+    public int damage;
+
     private float speed;
+
+    Player playerScript;
 
 	// Use this for initialization
 	void Start () {
-		speed = Random.Range(minSpeed, maxSpeed); 
+		speed = Random.Range(minSpeed, maxSpeed);
+        playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 	
 	// Update is called once per frame
@@ -22,7 +28,7 @@ public class Enemy : MonoBehaviour {
     {
         if (hitObject.tag == "Player")
         {
-            print("We hit the player!");
+            playerScript.TakeDamage(damage);
         }
     }
 }

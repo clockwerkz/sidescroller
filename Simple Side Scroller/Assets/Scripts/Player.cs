@@ -11,6 +11,10 @@ public class Player : MonoBehaviour {
     public float speed=1;
     private float input;
 
+    public int health;
+
+
+
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
@@ -46,4 +50,14 @@ public class Player : MonoBehaviour {
         //Moving player
         rb.velocity = new Vector2(input * speed, rb.velocity.y);
 	}
+
+    public void TakeDamage(int damageAmount)
+    {
+        health -= damageAmount;
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
