@@ -7,7 +7,7 @@ public class Spawner : MonoBehaviour {
     public Transform[] spawnPoints;
     public GameObject[] hazards;
 
-    private float timeBtwSpawns;
+    private float timeBtwSpawns = 0;
     public float startTimeBtwSpawns;
 
 	// Update is called once per frame
