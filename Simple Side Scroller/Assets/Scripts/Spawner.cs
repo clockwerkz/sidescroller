@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour {
-    //comment to delete
     public Transform[] spawnPoints;
     public GameObject[] hazards;
 
