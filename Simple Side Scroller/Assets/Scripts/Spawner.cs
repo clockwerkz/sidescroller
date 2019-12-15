@@ -15,6 +15,7 @@ public class Spawner : MonoBehaviour {
         if (timeBtwSpawns <= 0)
         {
             Transform rndSpawnPoint = spawnPoints[Random.Range(0, 8)];
+
             GameObject rndHazard = hazards[0];
             Instantiate(rndHazard, rndSpawnPoint.position, Quaternion.identity);
             timeBtwSpawns = startTimeBtwSpawns;
