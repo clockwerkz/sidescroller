@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour {
-
+    //comment to delete
     public Transform[] spawnPoints;
     public GameObject[] hazards;
 
@@ -23,7 +23,6 @@ public class Spawner : MonoBehaviour {
             if (timeBtwSpawns <= 0)
             {
                 Transform rndSpawnPoint = spawnPoints[Random.Range(0, 8)];
-
                 GameObject rndHazard = hazards[0];
                 Instantiate(rndHazard, rndSpawnPoint.position, Quaternion.identity);
                 if (startTimeBtwSpawns > minTimeBetweenSpawns)
