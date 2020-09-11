@@ -1,11 +1,15 @@
 fileFormatVersion: 2
 guid: 72674ce07f5402149bc673b32eb64758
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: enemy_blade
-    21300002: enemy_head
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: enemy_blade
+  - first:
+      213: 21300002
+    second: enemy_head
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -59,8 +63,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -71,7 +76,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -82,6 +88,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -101,6 +108,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e7a0cc5aa3239e74e815c09e2aa630f0
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -121,6 +129,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3e605b258157dcb4da7bd7902d935928
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -129,10 +138,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
